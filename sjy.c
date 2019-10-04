@@ -1,15 +1,13 @@
 #include <stdio.h>
-
 int main(void)
 {
-	int n1,n2,n3;
-	
-		puts("请输入三个整数。");
-	        printf("整数1：");   scanf("%d", &n1);
-		printf("整数2：");   scanf("%d", &n2);
-		printf("整数3：");   scanf("%d", &n3);
+	int x,y;
+		puts("请输入两个整数");
+		printf("整数x:"); scanf("%d", &x);
+	        printf("整数y:"); scanf("%d", &y);
 
-		printf("它们的和是%d。\n", n1+n2+n3);
+		printf("x的值是y的%.2lf %%\n",(double)x/y*100);
+		
 
-		return 0 ;
+			return 0;
 }
